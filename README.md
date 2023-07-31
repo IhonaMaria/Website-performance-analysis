@@ -22,3 +22,11 @@ This is an indicator that we might want to focus on those pages that get the mos
 
 
 ## Exercise 2:
+Exercise two consisted of extracting a list of the top entry pages (the top pages where the customer lands for the first time) ranked by entry volume. 
+To solve it, we will create a temporary table. Temporary tables in SQL are used to store intermediate results during the execution of a complex query or set of queries. They are especially useful when you need to perform multiple operations on a dataset and want to reuse or reference certain data without having to repeatedly query the original tables.
+Two steps are performed to solve the problem:
+
+- STEP 1: Find the first pageview for each session.
+- STEP 2: Find the url that the customer saw on that first pageview.
+
+  ![image](https://github.com/IhonaMaria/Website-performance-analysis/assets/119692820/cd8ad3de-cb46-4c55-8ce3-f011f2c5c7cf)
