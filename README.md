@@ -30,3 +30,28 @@ Two steps are performed to solve the problem:
 - STEP 2: Find the url that the customer saw on that first pageview.
 
   ![image](https://github.com/IhonaMaria/Website-performance-analysis/assets/119692820/cd8ad3de-cb46-4c55-8ce3-f011f2c5c7cf)
+
+
+## Exercise 3:
+In this exercise, we were asked to pull bounce rates for traffic landing on the homepage. The result should be in three columns, which are: sessions, bounced_sessions and bounce_rates. 
+We have been introduced to a new concept, the "bounce" and "bounce rates". A bounce refers to a visitor's behavior when they land on a web page and then leave the site without interacting with any other pages or elements on that page. Essentially, a bounce occurs when a user visits a single page of a website and then exits the website without taking any further action or navigating to another page.
+The bounce rate is a metric that represents the percentage of visitors who bounce from a website after viewing just one page, without engaging further with the site. It is calculated by dividing the number of single-page visits (bounces) by the total number of visits to the website and then multiplying by 100 to get the percentage.
+
+Bounce rate = (Number of single-page visits / Total number of visits) * 100
+
+Bounce rates are an essential metric for website owners and digital marketers as they provide insights into the effectiveness of landing pages and user engagement. The higher the bounce rate is, the worst for the business.
+
+In order to solve the problem, these steps have been taken:
+
+- STEP 1: Find the first website_page_view_id for relevant sessions
+- STEP 2: Identify the landing page of each session 
+- STEP 3: Count pageviews for each session, to identify the "bounces"
+- STEP 4: Summarize total sessions and bounce sessions
+
+It was necessary to create several temporary tables.
+
+The final result is shown below:
+
+![image](https://github.com/IhonaMaria/Website-performance-analysis/assets/119692820/97acd895-cf83-4e16-9d01-f2184c585b6c)
+
+We can see a bounce rate of 60% approximately, which is a pretty high value. Actions should be taken from the company to decrease this value. 
