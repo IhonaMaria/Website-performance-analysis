@@ -54,4 +54,26 @@ The final result is shown below:
 
 ![image](https://github.com/IhonaMaria/Website-performance-analysis/assets/119692820/97acd895-cf83-4e16-9d01-f2184c585b6c)
 
-We can see a bounce rate of 60% approximately, which is a pretty high value. Actions should be taken from the company to decrease this value. 
+We can see a bounce rate of 60% approximately, which is a pretty high value. Actions should be taken from the company to decrease this value.
+
+
+## Exercise 4:
+Following the last analysis, the company we are supposed to work for sat a new landing page (/lander-1) in a 50/50 test against the homepage (/home) for the gsearch nonbrand traffic.
+We are asked to pull the bounce rates for both landing pages in order to compare them and see which one performs better. 
+Basically, we want to know whether the home or the lander page performs better in terms of bounce rates. 
+
+Important note: It is important to just compare the data when the /lander-1 gets traffic to make a fair comparison. 
+
+In order to solve the exercise, these steps have been taken:
+
+-- STEP 1: Find the first instance of /lander -1
+-- STEP 2: Identify the landing page of each session 
+-- STEP 3: Count pageviews for each session, to identify the "bounces"
+-- STEP 4: Summarize total sessions and bounce sessions
+
+After the analysis, it looks like there has been an improvement since the lander page has a less bounce rate.
+
+![image](https://github.com/IhonaMaria/Website-performance-analysis/assets/119692820/4f6d3993-da25-4030-b42d-63a86640896f)
+
+
+
