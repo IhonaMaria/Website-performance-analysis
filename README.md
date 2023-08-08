@@ -76,4 +76,19 @@ After the analysis, it looks like there has been an improvement since the lander
 ![image](https://github.com/IhonaMaria/Website-performance-analysis/assets/119692820/4f6d3993-da25-4030-b42d-63a86640896f)
 
 
+## Exercise 5:
+After the analysis of exercise 4, the company has changed the paid traffic route to the /lander-1. Therefore, they want us to pull the volume of paid search nonbrand traffic landing on
+/home and /lander-1, trended weekly since June 1st. Basically, they want to make sure that the change has had the positive impact expected.
 
+The solution is again a multi-step query:
+
+- STEP 1: Finding the first website_pageview_id for the relevant sessions
+- STEP 2: Identify the landing page for each session
+- STEP 3: Count the pageviews for each session to identify the "bounces"
+- STEP 4: Summarize per week (bounce rate, session to each lander)
+
+![image](https://github.com/IhonaMaria/Website-performance-analysis/assets/119692820/2994ee3f-8799-4002-a440-32f6d75d870a)
+
+Looking at the results, we can see that, at first, all the sessions are landing on home, then they are split among home and lander, and finally, at some point (2012-08-05), all of the traffic goes to lander-1.
+We can see that when the traffic is completely switched to the lander-1, the bounce rates decrease. 
+Moreover, the bounce rates drop from around 60% to 50%, which is a positive thing for the business, meaning that now more people interact with the website. 
