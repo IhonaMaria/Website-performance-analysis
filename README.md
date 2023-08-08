@@ -92,3 +92,4 @@ The solution is again a multi-step query:
 Looking at the results, we can see that, at first, all the sessions are landing on home, then they are split among home and lander, and finally, at some point (2012-08-05), all of the traffic goes to lander-1.
 We can see that when the traffic is completely switched to the lander-1, the bounce rates decrease. 
 Moreover, the bounce rates drop from around 60% to 50%, which is a positive thing for the business, meaning that now more people interact with the website. 
+
