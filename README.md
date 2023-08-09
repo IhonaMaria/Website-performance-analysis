@@ -66,10 +66,10 @@ Important note: It is important to just compare the data when the /lander-1 gets
 
 In order to solve the exercise, these steps have been taken:
 
--- STEP 1: Find the first instance of /lander -1
--- STEP 2: Identify the landing page of each session 
--- STEP 3: Count pageviews for each session, to identify the "bounces"
--- STEP 4: Summarize total sessions and bounce sessions
+- STEP 1: Find the first instance of /lander -1
+- STEP 2: Identify the landing page of each session 
+- STEP 3: Count pageviews for each session, to identify the "bounces"
+- STEP 4: Summarize total sessions and bounce sessions
 
 After the analysis, it looks like there has been an improvement since the lander page has a less bounce rate.
 
